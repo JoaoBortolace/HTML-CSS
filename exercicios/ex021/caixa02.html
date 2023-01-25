@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        header>h1 {
+            text-align: center;
+        }
+
+        main {
+            background-color: honeydew;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        article {
+            background-color: azure;
+            padding: 5px;
+        }
+
+        article>p {
+            text-indent: 35px;
+            text-align: justify;
+        }
+
+        article>aside {
+            background-color: darkgrey;
+            padding: 3px 10px 3px 0px;
+            text-align: right;
+            box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.200);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px 10px;
+            box-shadow: 2px 1px 7px 1px rgba(0, 0, 0, 0.250);
+            border-radius: 8px;
+        }
+
+        nav {
+            background-color: rgb(92, 106, 121);
+            padding: 5px;
+            box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.200);
+
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+            padding-left: 5px;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+
+        nav>a:active {
+            color: darkgray;
+        }
+
+        nav>a::after {
+            color: lightgrey;
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="http://youtube.com" target="_blank" rel="external">Youtube</a>
+            <a href="http://google.com" target="_blank" rel="external">Google</a>
+        </nav>
+    </header>
+    <main>
+
+        <section id="assuntos">
+            <h2>Assuntos</h2>
+            Site de Teste de Grouping Tags
+        </section>
+        <section id="noticias">
+            <h2>Notícias</h2>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo ab hic quibusdam earum, saepe,
+                    aspernatur numquam corporis, accusamus veritatis quasi doloremque culpa non! Autem voluptatibus
+                    doloremque architecto magnam aspernatur rem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur laborum culpa, architecto
+                    tempora doloribus deserunt quidem quod aliquid debitis voluptatibus aspernatur fugiat! Repellat
+                    similique non cumque incidunt ex dolorum. Adipisci?</p>
+
+                <aside>
+                    Feito por Deus.
+                </aside>
+
+            </article>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo ab hic quibusdam earum, saepe,
+                    aspernatur numquam corporis, accusamus veritatis quasi doloremque culpa non! Autem voluptatibus
+                    doloremque architecto magnam aspernatur rem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur laborum culpa, architecto
+                    tempora doloribus deserunt quidem quod aliquid debitis voluptatibus aspernatur fugiat! Repellat
+                    similique non cumque incidunt ex dolorum. Adipisci?</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Site desenvolvido pelo João para conhecimento.</p>
+    </footer>
+
+</body>
+
+</html>
