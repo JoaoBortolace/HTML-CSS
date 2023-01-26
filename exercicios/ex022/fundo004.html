@@ -5,24 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagem de Fundo</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+            height: 100vh;/*
             background-color: black;
             background-image: url(images/wallpaper002.jpg);
-            background-position: center center;
-            background-repeat: repeat-y;
+            background-position: center center; 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+        /* Shorthand - background 
+            color > image > position > repeat > {size} > attachment
+            size não funciona no shorthand tem que ser separado
+        */
+            background: black url('images/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
+            text-align: justify;
             background-color: white;
-            width: 400px;
+            max-width: 800px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
-            border-radius: 15px;
+            border-radius: 10px;
         }
     </style>
 </head>
