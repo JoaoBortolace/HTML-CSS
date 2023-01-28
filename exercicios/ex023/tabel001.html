@@ -13,25 +13,24 @@
 
         table {
             width: 400px;
+            height: 200px;
             border-collapse: collapse;
         }
 
         tr {
             border: 1px solid black;
+            
         }
 
         td {
             border: 1px solid black;
             padding: 8px;
-            background-color: aqua;
+            text-align: left;
+            vertical-align: middle;
         }
 
-        td.dado {
-            background-color: yellowgreen;
-        }
-
-        th {
-            background-color: orangered;
+        td.numero {
+            text-align: right;
         }
     </style>
 </head>
@@ -46,29 +45,29 @@
                 Table data   = dado da tabela
     -->
     <table>
-        <tr class="linha"> <!--Primeira linha-->
+        <tr> <!--Primeira linha-->
             <th>1</th>
-            <td class="dado">A1</td>
+            <td>A1</td>
             <td>B1</td>
-            <td>C1</td>
+            <td class="numero">C1</td>
         </tr>
         <tr> <!--Segunda linha-->
             <th>2</th>
-            <td class="dado">A2</td>
+            <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr> <!--Terceira linha-->
             <th>3</th>
-            <td class="dado">A3</td>
+            <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr> <!--Quarta linha-->
             <th>4</th>
-            <td class="dado">A4</td>
+            <td>A4</td>
             <td>B4</td>
-            <td>C4</td>
+            <td class="numero">C4</td>
         </tr>
     </table>
 </body>
