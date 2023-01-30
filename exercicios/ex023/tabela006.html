@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 750px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        tbody>tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        div#container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit accusamus est dolores sunt quasi veniam molestias eius possimus minima, reprehenderit voluptate veritatis ipsum magni blanditiis aliquid deserunt! Molestiae, quasi magni?</p>
+
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Jan</th>
+                    <th scope="col">Fev</th>
+                    <th scope="col">Mar</th>
+                    <th scope="col">Apr</th>
+                    <th scope="col">Mai</th>
+                    <th scope="col">Jun</th>
+                    <th scope="col">Jul</th>
+                    <th scope="col">Ago</th>
+                    <th scope="col">Set</th>
+                    <th scope="col">Out</th>
+                    <th scope="col">Nov</th>
+                    <th scope="col">Dec</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>TV 50"</td>
+                <td>02</td>
+                <td>04</td>
+                <td>01</td>
+                <td>05</td>
+                <td>10</td>
+                <td>12</td>
+                <td>32</td>
+                <td>05</td>
+                <td>04</td>
+                <td>07</td>
+                <td>01</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>RTX 4090</td>
+                <td>02</td>
+                <td>03</td>
+                <td>09</td>
+                <td>08</td>
+                <td>06</td>
+                <td>03</td>
+                <td>10</td>
+                <td>11</td>
+                <td>06</td>
+                <td>07</td>
+                <td>08</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>i9 13900K</td>
+                <td>08</td>
+                <td>05</td>
+                <td>07</td>
+                <td>11</td>
+                <td>12</td>
+                <td>04</td>
+                <td>09</td>
+                <td>02</td>
+                <td>08</td>
+                <td>13</td>
+                <td>11</td>
+                <td>07</td>
+            </tr>
+            <tr>
+                <td>ARC a770</td>
+                <td>02</td>
+                <td>01</td>
+                <td>03</td>
+                <td>05</td>
+                <td>03</td>
+                <td>02</td>
+                <td>04</td>
+                <td>07</td>
+                <td>05</td>
+                <td>03</td>
+                <td>04</td>
+                <td>05</td>
+            </tr>
+            <tr>
+                <td>RX 7900XTX</td>
+                <td>04</td>
+                <td>05</td>
+                <td>07</td>
+                <td>04</td>
+                <td>03</td>
+                <td>08</td>
+                <td>05</td>
+                <td>06</td>
+                <td>06</td>
+                <td>04</td>
+                <td>08</td>
+                <td>03</td>
+            </tr>
+            <tr>
+                <td>DDR5</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>10</td>
+                <td>14</td>
+                <td>09</td>
+                <td>12</td>
+                <td>11</td>
+                <td>13</td>
+                <td>15</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
