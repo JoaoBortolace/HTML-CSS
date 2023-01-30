@@ -9,6 +9,7 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             background-color: black;
+            color: wheat;
         }
 
         h1 {
@@ -16,10 +17,13 @@
         }
 
         table {
+            margin: auto;
             background-color: whitesmoke;
-            width: 750px;
+            max-width: 800vw;
             border-collapse: collapse;
             user-select: none;
+            position: relative;
+            color: black;
         }
 
         caption {
@@ -37,9 +41,19 @@
             color: whitesmoke;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #569194;
+        }
+
         td, th {
             border: 1px solid #E08CC2;
             padding: 8px;
+        }
+
+        tbody > tr:hover {
+            border: 2px solid #944E7C;
         }
 
         td {
@@ -79,8 +93,8 @@
                 <th scope="col">Posição</th>
                 <th scope="col">Unidade <br>federativa</th>
                 <th scope="col" style="width: 50px;">População</th>
-                <th scope="col">% da pop. total (2022)</th>
-                <th scope="col">Paí comparável (habitantes)</th>
+                <th scope="col" style="width: 90px;">% da pop. total (2022)</th>
+                <th scope="col">País comparável (habitantes)</th>
             </tr>
         </thead>
         <tbody>
@@ -121,7 +135,7 @@
             </tr>
             <tr>
                 <td class="centro">6</td>
-                <td>Rio Grandee do Sul</td>
+                <td>Rio Grande do Sul</td>
                 <td class="right">11.088.065</td>
                 <td class="centro">5,3%</td>
                 <td class="centro">Cuba (11.326.616)</td>
@@ -277,13 +291,17 @@
 
         <tfoot>
             <tr>
-                <td></td>
-                <th scope="row">Total de habitantes</th>
-                <td class="right"><strong>207.883.699</strong></td>
-                <td></td>
-                <td></td>
+                <th scope="row" colspan="3">Total de habitantes</th>
+                <td class="right" colspan="2" style="text-align: center;"><strong>207.883.699</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam maiores aut ex sit? Expedita earum ut illo libero, veritatis esse minus rem tempora ex ducimus voluptatum hic tenetur placeat illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero laboriosam reiciendis assumenda illo labore velit totam recusandae deleniti repudiandae rerum aspernatur quibusdam, iste nulla commodi voluptas quae maiores quos! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita saepe veritatis porro fugiat, fuga obcaecati ea, praesentium repellat nemo deleniti ut nam minima, quae officia quibusdam sequi error cum commodi.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam inventore beatae tempore repellendus architecto, optio quia quis maiores provident, maxime in sit totam praesentium ea, vitae dicta quae quisquam deleniti?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam maiores aut ex sit? Expedita earum ut illo libero, veritatis esse minus rem tempora ex ducimus voluptatum hic tenetur placeat illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero laboriosam reiciendis assumenda illo labore velit totam recusandae deleniti repudiandae rerum aspernatur quibusdam, iste nulla commodi voluptas quae maiores quos! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita saepe veritatis porro fugiat, fuga obcaecati ea, praesentium repellat nemo deleniti ut nam minima, quae officia quibusdam sequi error cum commodi.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam inventore beatae tempore repellendus architecto, optio quia quis maiores provident, maxime in sit totam praesentium ea, vitae dicta quae quisquam deleniti?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam maiores aut ex sit? Expedita earum ut illo libero, veritatis esse minus rem tempora ex ducimus voluptatum hic tenetur placeat illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero laboriosam reiciendis assumenda illo labore velit totam recusandae deleniti repudiandae rerum aspernatur quibusdam, iste nulla commodi voluptas quae maiores quos! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita saepe veritatis porro fugiat, fuga obcaecati ea, praesentium repellat nemo deleniti ut nam minima, quae officia quibusdam sequi error cum commodi.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam inventore beatae tempore repellendus architecto, optio quia quis maiores provident, maxime in sit totam praesentium ea, vitae dicta quae quisquam deleniti?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam maiores aut ex sit? Expedita earum ut illo libero, veritatis esse minus rem tempora ex ducimus voluptatum hic tenetur placeat illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero laboriosam reiciendis assumenda illo labore velit totam recusandae deleniti repudiandae rerum aspernatur quibusdam, iste nulla commodi voluptas quae maiores quos! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita saepe veritatis porro fugiat, fuga obcaecati ea, praesentium repellat nemo deleniti ut nam minima, quae officia quibusdam sequi error cum commodi.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam inventore beatae tempore repellendus architecto, optio quia quis maiores provident, maxime in sit totam praesentium ea, vitae dicta quae quisquam deleniti?</p>
 </body>
 </html>
